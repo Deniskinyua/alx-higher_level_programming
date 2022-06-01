@@ -1,0 +1,5 @@
+#!/bin/bash
+python3 -m compileall -b "$PYFILE"
+© 2022 GitHub, Inc.
+Terms
+Privacy
