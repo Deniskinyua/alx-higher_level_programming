@@ -26,5 +26,3 @@ def add_tuple(tuple_a=(), tuple_b=()):
     new_tuple = (a1 + b1, a2 + b2)
 
     return (new_tuple)
-© 2022 GitHub, Inc.
-Terms
