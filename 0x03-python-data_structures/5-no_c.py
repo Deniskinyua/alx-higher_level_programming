@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """
 Write a function that removes all characters c and c from a string
   - Should return a new string
