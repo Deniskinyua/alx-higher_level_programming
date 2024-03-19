@@ -1,4 +1,4 @@
-#!/usr/bin/python
+i#!/usr/bin/python
 """
 Write a function that removes all characters c and c from a string
   - Should return a new string
@@ -20,4 +20,4 @@ def no_c(my_string):
     for C in range(len(r_string)):
         if r_string[C] != 'C':
             n_string.append(r_string[C])
-    return (''.join(n_string))
+    return ("".join(n_string))
