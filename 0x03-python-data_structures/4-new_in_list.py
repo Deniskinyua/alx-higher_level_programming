@@ -11,7 +11,7 @@ Replace an element at index idx, without modifying the original list
 
 def new_in_list(my_list, idx, element):
     # Creating a copy
-    my_list_copy = my_list
+    my_list_copy = my_list.copy()
     my_list_length = len(my_list)
 
     if idx < 0:
