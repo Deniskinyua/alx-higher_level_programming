@@ -8,6 +8,10 @@ Write a function that removes all characters c and c from a string
 
 
 def no_c(my_string):
-    new_string = my_string.translate({ord("c"): None})
-    n_string = new_string.translate({ord("C"): None})
-    return(n_string)
+    i = 0
+    l_string = my_string[:]
+    for letter in range(len(my_string)):
+        if (my_string[letter] == 'C' or my_string[letter] == 'c'):
+            l_string = l_string[:(letter - i)] + my_string[(letter + i):]
+            i += 1
+    return (l_string)
