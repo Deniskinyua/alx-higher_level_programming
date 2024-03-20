@@ -37,5 +37,4 @@ def add_tuple(tuple_a=(), tuple_b=()):
         aa = tuple_b[0]
         bb = tuple_b[1]
 
-    result = (ta + aa, tb + bb)
-    return (resut)
+    return(ta + aa, tb + bb)
