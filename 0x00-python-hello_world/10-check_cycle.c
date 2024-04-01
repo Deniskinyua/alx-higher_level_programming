@@ -4,7 +4,7 @@
  * check_cycle - checks if a singly linked list has
  * a cycle
  * @list: pointer to the linked list
- * Return: 0 if no cycle exists
+ * Return: 0 if no cycle exists in the linked list
  * 1 if it exists
  */
 int check_cycle(listint_t *list)
