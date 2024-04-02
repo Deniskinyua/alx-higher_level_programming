@@ -23,6 +23,7 @@
 
 ## Project Tasks
 **Task 0 : Write a function that prints `x` elements of a list**
+> `0-safe_print_list.py`
 ```
 - Prototype: `def safe_print_list(my_list=[], x=0):`
 - `my_list` can contain any type (integer, string, etc.)
@@ -34,9 +35,8 @@
 - You are not allowed to import any module
 - You are not allowed to use `len()`
 ```
-> 0-safe_print_list.py
-
 **Task 1 : Write a function that prints an integer with `"{:d}".format()`**
+> `1-safce_print_integer.py`
 ```
 - Prototype: def safe_print_integer(value):
 - value can be any type (integer, string, etc.)
@@ -48,9 +48,8 @@
 - You are not allowed to import any module
 - You are not allowed to use `type()`
 ```
-> 1-safe_print_integer.py
-
 **Task 2 : Write a function that prints the first `x` elements of a list and only integers**
+> `2-safe_print_list_integers.py`
 ```
 - Prototype: `def safe_print_list_integers(my_list=[], x=0):`
 - `my_list` can contain any type (integer, string, etc.)
@@ -63,7 +62,5 @@
 - You are not allowed to import any module
 - You are not allowed to use `len()`
 ```
-> 2-safe_print_list_integers.py
-
 **Task 3 : Write a function that divides 2 integers and prints the result**
 
