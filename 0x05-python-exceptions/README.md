@@ -23,12 +23,14 @@
 
 ## Project Tasks
 **Task 0 : Write a function that prints `x` elements of a list**
-- [x] Prototype: `def safe_print_list(my_list=[], x=0):`
-- [x] `my_list` can contain any type (integer, string, etc.)
-- [x] All elements must be printed on the same line followed by a new line.
-- [x] `x` represents the number of elements to print
-- [x] `x` can be bigger than the length of `my_list`
+```
+- Prototype: `def safe_print_list(my_list=[], x=0):`
+- `my_list` can contain any type (integer, string, etc.)
+- All elements must be printed on the same line followed by a new line.
+- `x` represents the number of elements to print
+- `x` can be bigger than the length of `my_list`
 - [x] Returns the real number of elements printed
-- [x] You have to use `try: / except:`
-- [x] You are not allowed to import any module
-- [x] You are not allowed to use `len()`
+- You have to use `try: / except:`
+- You are not allowed to import any module
+- You are not allowed to use `len()`
+```
