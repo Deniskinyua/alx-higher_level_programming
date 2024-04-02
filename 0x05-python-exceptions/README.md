@@ -36,7 +36,7 @@
 - You are not allowed to use `len()`
 ```
 **Task 1 : Write a function that prints an integer with `"{:d}".format()`**
-> `1-safce_print_integer.py`
+> `1-safe_print_integer.py`
 ```
 - Prototype: def safe_print_integer(value):
 - value can be any type (integer, string, etc.)
