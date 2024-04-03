@@ -52,23 +52,19 @@ class Square:
             print()
         for j in range(self.__size):
             print("".join([" " for k in range(self.__position[0])]), end="")
-            print("".join(["#" for l in range(self.__size)]))
+            print("".join(["#" for m in range(self.__size)]))
 
     @property
     def position(self):
-        """getter of __position
-        Returns:
-            The position of the square in 2D space
+        """
+        Return: square in 2D
         """
         return self.__position
 
     @position.setter
     def position(self, value):
-        """setter of __position
-        Args:
-            value (tuple): position of the square in 2D space
-        Returns:
-            None
+        """
+        Set pos
         """
         if type(value) is not tuple or len(value) != 2 or \
            type(value[0]) is not int or value[0] < 0 or \
