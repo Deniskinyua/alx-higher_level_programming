@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-# Write a class Square that defines a square by based on 1-square.py
+""" Class Square """
 
 
 class Square:
-    # passing private attributes
+    """ Private """
 
     def __init__(self, size=0):
-        # def
+        """
+        Use size
+        """
 
         if type(size) is int:
             if size < 0:
