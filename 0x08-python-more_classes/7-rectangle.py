@@ -74,5 +74,5 @@ class Rectangle:
         """string representation of the rectangle --> repr"""
         wd = str(self.__width)
         ht = str(self.__height)
-        strn = "Rectangle(" + wd + ", "+ h + ")"
+        strn = "Rectangle(" + wd + ", " + h + ")"
         return strn
