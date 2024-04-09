@@ -61,8 +61,10 @@ class Rectangle:
     def __str__(self):
         """string representation of rectangle"""
         strn = ""
+        if self.__width == 0 or self.__height == 0:
+            return strn
         for j in range(self.__height):
-            for j in range(self.__width):
+            for k in range(self.__width):
                 strn += str(self.print_symbol)
             if j != self.__height - 1:
                 strn += '\n'
