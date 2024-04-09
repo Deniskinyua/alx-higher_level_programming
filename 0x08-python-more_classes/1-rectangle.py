@@ -5,33 +5,34 @@ Write a class Rectangle defining a rectangle based on 0-rectangle.py
 
 
 class Rectangle:
-    """class constructor"""
+    """class Rectangle"""
     def __init__(self, width=0, height=0):
+        """class constructor"""
         self.width = width
         self.height = height
 
-    """private instance attribute width"""
     @property
     def width(self):
+        """private instance attribute width"""
         return self.width
 
-    """setter for width"""
     @width.setter
     def width(self, value):
+        """setter for width"""
         if type(value) is not int:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be an integer")
         self.__width = value
 
-    """private instance attribute height"""
     @property
     def height(self):
+        """Getter: height/return height"""
         return self.height
 
-    """Setter for height"""
     @height.setter
     def height(self, value):
+        """Setter : height --> return height"""
         if type(value) is not int:
             raise TypeError("height must be an integer")
         if value < 0:
