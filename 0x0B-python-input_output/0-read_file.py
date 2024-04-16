@@ -7,5 +7,5 @@ Print it to stdou
 
 def read_file(filename=""):
     """function: use open() and read()"""
-    f = open(filename, mode='r', encoding='utf-8')
-    print(f.read(), end="")
+    with open(filename, mode='r', encoding='utf-8') as file:
+        print(file.read(), end="")
