@@ -9,6 +9,7 @@ Donts: import any module
 
 
 def pascal_triangle(n):
+    """method"""
     if n <= 0:
         return []
 
@@ -21,7 +22,7 @@ def pascal_triangle(n):
             res.append([1, 1])
             continue
         row = []
-        # init row
+        """init row"""
         for item in range(elem + 1):
             row.append(item)
         for item in range(1, elem):
