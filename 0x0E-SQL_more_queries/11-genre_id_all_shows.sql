@@ -1,6 +1,6 @@
 -- Genre ID for all shows
-SELECT tv_shows.title, tsg.genre_id
-FROM tv_shows
+SELECT tvs.title, tsg.genre_id
+FROM tv_shows AS tvs
 LEFT JOIN tv_show_genres AS tsg
-ON tv_shows = tsg.show_id
-ORDER BY tv_shows.title, tsg.genre_id;
+ON tvs = tsg.show_id
+ORDER BY tvs.title, tsg.genre_id;
